@@ -21,12 +21,12 @@ https://go.microsoft.com/fwlink/?LinkID=866658
 
 
 ## Some Screenshots (there are more screenshots in the screenshots folder)
-<img src="https://github.com/Turkmen48/cvkayitvearsivleme/tree/main/screenshots/ps1.png" width="500" height="500">
-<img src="https://github.com/Turkmen48/cvkayitvearsivleme/tree/main/screenshots/ps2.png" width="500" height="500">
-<img src="https://github.com/Turkmen48/cvkayitvearsivleme/tree/main/screenshots/ps3.png" width="500" height="500">
-<img src="https://github.com/Turkmen48/cvkayitvearsivleme/tree/main/screenshots/ps4.png" width="500" height="500">
-<img src="https://github.com/Turkmen48/cvkayitvearsivleme/tree/main/screenshots/ps5.png" width="500" height="500">
-<img src="https://github.com/Turkmen48/cvkayitvearsivleme/tree/main/screenshots/ps6.png" width="500" height="500">
+<img src="https://github.com/Turkmen48/cvkayitvearsivleme/blob/main/screenshots/ps1.png" width="500" height="500">
+<img src="https://github.com/Turkmen48/cvkayitvearsivleme/blob/main/screenshots/ps2.png" width="500" height="500">
+<img src="https://github.com/Turkmen48/cvkayitvearsivleme/blob/main/screenshots/ps3.png" width="500" height="500">
+<img src="https://github.com/Turkmen48/cvkayitvearsivleme/blob/main/screenshots/ps4.png" width="500" height="500">
+<img src="https://github.com/Turkmen48/cvkayitvearsivleme/blob/main/screenshots/ps5.png" width="500" height="500">
+<img src="https://github.com/Turkmen48/cvkayitvearsivleme/blob/main/screenshots/ps6.png" width="500" height="500">
 
 
 
