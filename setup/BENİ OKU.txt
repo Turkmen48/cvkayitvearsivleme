@@ -1,0 +1,18 @@
+Bilgisayarınızda bu yazılımlar yüklü olmalıdır. Değilse setuptan otomatik kurulur zaten. Sıkıntı olursa
+elle yükleyin.
+
+Visual C++ Redistributable for Visual Studio 2015
+https://www.microsoft.com/en-us/download/details.aspx?id=48145
+
+.Net Framework 4.8 veya daha üzeri
+https://dotnet.microsoft.com/en-us/download/dotnet-framework/thank-you/net48-web-installer
+
+Sql server express 2019
+https://go.microsoft.com/fwlink/?LinkID=866658
+
+Uygulama kurulduktan sonra bazı kısımları görmekte sorun yaşarsanız diğer uygulamalar gibi köşelerden
+çekip büyütebilirsiniz.
+
+UYGULAMA GİRİŞ BİLGİLERİ:
+Kullanıcı adı: admin 
+Şifre: admin

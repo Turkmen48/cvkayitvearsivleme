@@ -1,0 +1,432 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.UI.Xaml.2.8.1\build\Microsoft.UI.Xaml.props" Condition="Exists('..\packages\Microsoft.UI.Xaml.2.8.1\build\Microsoft.UI.Xaml.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C7A77273-C28B-4D5F-8F63-230D44366871}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>cvkayitvearsivleme</RootNamespace>
+    <AssemblyName>cvkayitvearsivleme</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <PublishUrl>C:\Users\Turkmen\Desktop\setup\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <TargetCulture>tr-TR</TargetCulture>
+    <ProductName>Cv Kayıt Ve Arşivleme</ProductName>
+    <PublisherName>Enes Durmus</PublisherName>
+    <ApplicationRevision>19</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <CreateDesktopShortcut>true</CreateDesktopShortcut>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>316D5723670D676E84CBE4A0EF9D24635FD179F6</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>cvkayitvearsivleme_2_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>logo.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ClockPicker">
+      <HintPath>..\..\..\..\..\AppData\Local\Temp\Rar$DRa9236.20735\ClockPicker\ClockPicker\bin\Debug\ClockPicker.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Data.Desktop.v21.2, Version=21.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Data.v21.2, Version=21.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Images.v21.2, Version=21.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Printing.v21.2.Core, Version=21.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Sparkline.v21.2.Core, Version=21.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Utils.v21.2, Version=21.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraBars.v21.2, Version=21.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v21.2, Version=21.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGrid.v21.2, Version=21.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraNavBar.v21.2, Version=21.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Web.WebView2.Core, Version=1.0.1264.42, Culture=neutral, PublicKeyToken=2a8ab48044d2601e, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Web.WebView2.1.0.1264.42\lib\net45\Microsoft.Web.WebView2.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Web.WebView2.WinForms, Version=1.0.1264.42, Culture=neutral, PublicKeyToken=2a8ab48044d2601e, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Web.WebView2.1.0.1264.42\lib\net45\Microsoft.Web.WebView2.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Web.WebView2.Wpf, Version=1.0.1264.42, Culture=neutral, PublicKeyToken=2a8ab48044d2601e, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Web.WebView2.1.0.1264.42\lib\net45\Microsoft.Web.WebView2.Wpf.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Messaging" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Ayarlar_KullaniciAyarlari.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Ayarlar_KullaniciAyarlari.Designer.cs">
+      <DependentUpon>Ayarlar_KullaniciAyarlari.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ayarlar_Logs.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Ayarlar_Logs.Designer.cs">
+      <DependentUpon>Ayarlar_Logs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CvOlustur_UserControl1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CvOlustur_UserControl1.Designer.cs">
+      <DependentUpon>CvOlustur_UserControl1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CvOlustur_UserControl2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CvOlustur_UserControl2.Designer.cs">
+      <DependentUpon>CvOlustur_UserControl2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Database.cs" />
+    <Compile Include="EditPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditPage.Designer.cs">
+      <DependentUpon>EditPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditPage_UserControl1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EditPage_UserControl1.Designer.cs">
+      <DependentUpon>EditPage_UserControl1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditPage_UserControl2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EditPage_UserControl2.Designer.cs">
+      <DependentUpon>EditPage_UserControl2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Ayarlar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Ayarlar.Designer.cs">
+      <DependentUpon>Form_Ayarlar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_CvAra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_CvAra.Designer.cs">
+      <DependentUpon>Form_CvAra.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_CvOlustur.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_CvOlustur.Designer.cs">
+      <DependentUpon>Form_CvOlustur.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Randevu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Randevu.Designer.cs">
+      <DependentUpon>Form_Randevu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_RandevuVer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_RandevuVer.Designer.cs">
+      <DependentUpon>Form_RandevuVer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RandevuVer_CvGetirUc.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="RandevuVer_CvGetirUc.Designer.cs">
+      <DependentUpon>RandevuVer_CvGetirUc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RandevuVer_RandevuKayıt_Uc.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="RandevuVer_RandevuKayıt_Uc.Designer.cs">
+      <DependentUpon>RandevuVer_RandevuKayıt_Uc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Services.cs" />
+    <Compile Include="SifremiUnuttum_Giris.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SifremiUnuttum_Giris.Designer.cs">
+      <DependentUpon>SifremiUnuttum_Giris.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SifremiUnuttum_Kurtar.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SifremiUnuttum_Kurtar.Designer.cs">
+      <DependentUpon>SifremiUnuttum_Kurtar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sifremi_Unuttum.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sifremi_Unuttum.Designer.cs">
+      <DependentUpon>Sifremi_Unuttum.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Ayarlar_KullaniciAyarlari.resx">
+      <DependentUpon>Ayarlar_KullaniciAyarlari.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ayarlar_Logs.resx">
+      <DependentUpon>Ayarlar_Logs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CvOlustur_UserControl1.resx">
+      <DependentUpon>CvOlustur_UserControl1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CvOlustur_UserControl2.resx">
+      <DependentUpon>CvOlustur_UserControl2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditPage.resx">
+      <DependentUpon>EditPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditPage_UserControl1.resx">
+      <DependentUpon>EditPage_UserControl1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditPage_UserControl2.resx">
+      <DependentUpon>EditPage_UserControl2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Ayarlar.resx">
+      <DependentUpon>Form_Ayarlar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_CvAra.resx">
+      <DependentUpon>Form_CvAra.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_CvOlustur.resx">
+      <DependentUpon>Form_CvOlustur.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Randevu.resx">
+      <DependentUpon>Form_Randevu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_RandevuVer.resx">
+      <DependentUpon>Form_RandevuVer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="RandevuVer_CvGetirUc.resx">
+      <DependentUpon>RandevuVer_CvGetirUc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RandevuVer_RandevuKayıt_Uc.resx">
+      <DependentUpon>RandevuVer_RandevuKayıt_Uc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SifremiUnuttum_Giris.resx">
+      <DependentUpon>SifremiUnuttum_Giris.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SifremiUnuttum_Kurtar.resx">
+      <DependentUpon>SifremiUnuttum_Kurtar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sifremi_Unuttum.resx">
+      <DependentUpon>Sifremi_Unuttum.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\resumewhite.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\resume.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\searchwhite.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\appointment.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\settings.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\decline.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\accept.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\bgfire.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\bgfireempty.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.8">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.8 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.SqlServer.SqlLocalDB.15.0">
+      <Visible>False</Visible>
+      <ProductName>SQL Server 2019 Express LocalDB</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="databasefiles\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\profilesettings.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\constant.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\edit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\appointment-search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\refresh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\log.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="cvkayitvearsivleme.mdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="cvkayitvearsivleme_log.ldf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DependentUpon>cvkayitvearsivleme.mdf</DependentUpon>
+    </Content>
+    <None Include="images\login.png" />
+    <Content Include="logo.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <PublishFile Include="cvkayitvearsivleme.mdf">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="cvkayitvearsivleme_log.ldf">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="..\packages\Microsoft.Web.WebView2.1.0.1264.42\build\Microsoft.Web.WebView2.targets" Condition="Exists('..\packages\Microsoft.Web.WebView2.1.0.1264.42\build\Microsoft.Web.WebView2.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.Web.WebView2.1.0.1264.42\build\Microsoft.Web.WebView2.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Web.WebView2.1.0.1264.42\build\Microsoft.Web.WebView2.targets'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.UI.Xaml.2.8.1\build\Microsoft.UI.Xaml.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.UI.Xaml.2.8.1\build\Microsoft.UI.Xaml.props'))" />
+  </Target>
+</Project>
